@@ -4,13 +4,39 @@
     <meta charset="utf-8">
     <title>BMI checker</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Modak|Sacramento&display=swap" rel="stylesheet">
   </head>
   <body>
+      <header>BMI monitor</header>
     <div class="main">
-      <div></div>
       
+      <div class="left-side">
+         
+            <div class = "h-container">
+              <label for="height-input"> Height in cm</label>
+              <input type="number" id="height-input" name="" value="">
+            </div>
 
+            <div class = "h-container">
+              <label for="weight-input"> Weight in kg</label>
+              <input type="number" id="weight-input" name="" value="">
+            </div>
+            
+            <div class = "b-container">
+              <button type="button" id="btn" name="button">Check BMI</button>
+            </div>
+          
+      </div>
+       <div class="right-side">
+         <P><b>Body Mass Index (BMI)</b>  is a measurement of a person’s weight 
+           with respect to his or her height. It is more of an indicator than a direct measurement of a person’s total body fat.
+           BMI, more often than not, correlates with total body fat. This means that as the BMI score increases, 
+            so does a person’s total body fat.</P>
+       <h2>Current BMI: 0</h2>
+      
+      </div>
     </div>
+    <footer>By chani24</footer>
 
     <script src="app.js" charset="utf-8"></script>
   </body>
