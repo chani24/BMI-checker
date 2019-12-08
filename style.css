@@ -1,14 +1,14 @@
 body{
-  background-image: url(https://i.pinimg.com/originals/81/c4/e7/81c4e7e1626260b07482153600e844aa.jpg);
+  background-image: url(https://www.xmple.com/wallpaper/cyan-azure-3d-cubes-1920x1080-c3-17252a-3d7383-76b6c9-l-268-a-225-f-11.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: rgb(255, 255, 255);
+  color: color: #FEFFFF;
 font-family: 'Raleway', sans-serif;
 }
 
 header{font-family: 'Modak', cursive;
        font-size: 43px;
-       color: rgb(16, 68, 209);}
+       color: #FEFFFF;}
 .main{
     width: 85vw;
     height: 75vh;
@@ -26,16 +26,14 @@ width: 40vw;
 margin-right: 20px;}
 
 .right-side{
-background-image: url(https://image.freepik.com/free-photo/blue-powder-explosion-white-background-colored-cloud-colorful-dust-explode-paint-holi_44314-891.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-opacity: 0.8;
+background-color: rgb(7, 16, 24);
 width: 40vw;
 text-align: center;
 padding: 20px;
 font-size: 20px;
 border-radius: 8px;
-color: rgb(1, 8, 24);
+color: #FEFFFF;
+font-family: 'Roboto Mono', monospace;
 }
 
 
@@ -47,18 +45,19 @@ color: rgb(1, 8, 24);
 
     input{width: 100%;
       height: 40%;
-      background-color: rgba(250, 250, 250, 0.252);
+      background-color: #ffffff;
       border: 0;
-      border-radius: 3px;
+      border-radius: 50px;
       text-align: center;
       font-size:35px ;
-      color: white;
+      color: #17252A;
+      margin-top: 17px;
       }
 
       label{
         font-size: 25px;
-        
         font-weight: 700;
+        color: #2b7a78;
         }
 
         .b-container{
@@ -67,10 +66,9 @@ color: rgb(1, 8, 24);
           justify-content: center;
         }
 
-        button{background-color: rgb(27, 83, 238);
+        button{background-color: rgb(7, 16, 24);
          color: white;
          border-style: none;
-         
          width:90px;
          height: 40px;
          border-radius: 5px;}
