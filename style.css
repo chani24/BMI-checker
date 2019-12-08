@@ -9,6 +9,7 @@ font-family: 'Raleway', sans-serif;
 header{font-family: 'Modak', cursive;
        font-size: 43px;
        color: #FEFFFF;}
+
 .main{
     width: 85vw;
     height: 75vh;
@@ -83,5 +84,5 @@ footer{
   }
 
   @media only screen and (max-width: 600px) {
-
+    .main{display: block;}
   }
