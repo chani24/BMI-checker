@@ -8,7 +8,7 @@ document.querySelector('#btn').addEventListener('click', function(){
     bmi = (weight/realHeight).toFixed(1);
 
     document.querySelector('#bmi').textContent = (`Current BMI: ${bmi}`);
-    console.log(bmi);
+    
 
     setTimeout(function(){
         let advice;
@@ -29,11 +29,14 @@ document.querySelector('#btn').addEventListener('click', function(){
             your risk of hypertension, type 2 diabetes, etc. We suggest you contact a medical practicioner
              for proper medical advice`);
         } 
-        else {
+        else if (bmi > 30){
             document.querySelector("#bmi").style.color = "#cc1310";
             advice = (`The result suggests you are obese, this increases 
             your risk of cardiovascular diseases. We suggest you contact a medical practicioner
              for proper medical advice`);
+        }
+        else {
+            advice = (`kindly input correct measurement`);
         };
         document.querySelector('#recommendation').textContent = advice;
     }, 100)
