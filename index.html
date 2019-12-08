@@ -5,6 +5,7 @@
     <title>BMI checker</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Modak|Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
   </head>
   <body>
       <header>BMI monitor</header>
@@ -13,17 +14,17 @@
       <div class="left-side">
          
             <div class = "h-container">
-              <label for="height-input"> Height in cm</label>
-              <input type="number" id="height-input" name="" value="">
+              <label for="height-input"> Height (cm)</label>
+              <input type="number" id="height-input" placeholder="Input your height in centimeters" value="">
             </div>
 
             <div class = "h-container">
-              <label for="weight-input"> Weight in kg</label>
-              <input type="number" id="weight-input" name="" value="">
+              <label for="weight-input"> Weight (kg)</label>
+              <input type="number" id="weight-input" placeholder="Input your weight in kilograms" value="">
             </div>
             
             <div class = "b-container">
-              <button type="button" id="btn" name="button">Check BMI</button>
+              <button type="button" id ="btn" name="button">Check BMI</button>
             </div>
           
       </div>
@@ -32,7 +33,8 @@
            with respect to his or her height. It is more of an indicator than a direct measurement of a person’s total body fat.
            BMI, more often than not, correlates with total body fat. This means that as the BMI score increases, 
             so does a person’s total body fat.</P>
-       <h2>Current BMI: 0</h2>
+       <h2 id = "bmi">Current BMI: </h2>
+       <p id = "recommendation"></p>
       
       </div>
     </div>
