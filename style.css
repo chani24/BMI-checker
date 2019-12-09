@@ -95,7 +95,7 @@ footer{
     .right-side{
       margin-top: 20px;
       width: 400px;
-      min-height: 400px;
+      height: auto;
       padding: 20px;
       font-size: 12px;
       }
@@ -114,8 +114,6 @@ footer{
         button{
           margin-left: 0;
           margin-top: 10px;
-          width: 50px;
-          height:40px;
         }
 
         .b-container{
