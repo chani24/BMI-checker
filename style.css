@@ -83,7 +83,34 @@ footer{
   
   }
 
+  @media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
 
+    .main{display: block;
+    justify-content: center;}
+
+    .right-side{
+      margin-top: 20px;
+      width: 70vw;
+      padding: 20px;
+      font-size: 12px;
+      }
+
+      input{width: 200%;
+        height: 55%;
+        font-size:25px ;
+        margin-bottom: 10px;
+        }
+
+        button{
+          margin-left: 0;
+        }
+
+        .b-container{
+          display: flex;
+          justify-content: left;
+         }
+      
+  }
 
   @media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
 
@@ -92,25 +119,25 @@ footer{
 
     .right-side{
       margin-top: 20px;
-      width: 75%;
-      height: 50%;
+      width: 70vw;
+      height: 50vw;
       padding: 20px;
-      font-size: 25px;
+      font-size: 12px;
       }
 
     .left-side{
-      height: 50%;
+      height: 40vw;
       
     }
 
       input{width: 200%;
         height: 55%;
         font-size:25px ;
+        margin-bottom: 10px;
         }
 
         button{
           margin-left: 0;
-          margin-top: 10px;
         }
 
         .b-container{
