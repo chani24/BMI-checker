@@ -111,3 +111,37 @@ footer{
          }
       
   }
+
+  @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+
+    .main{display: block;
+    justify-content: center;}
+
+    .right-side{
+      margin-top: 20px;
+      width: 70vw;
+      height: 40vw;
+      padding: 20px;
+      font-size: 12px;
+      }
+
+    .left-side{
+      height: 40vw;
+    }
+
+      input{width: 200%;
+        height: 55%;
+        font-size:25px ;
+        margin-bottom: 10px;
+        }
+
+        button{
+          margin-left: 0;
+        }
+
+        .b-container{
+          display: flex;
+          justify-content: left;
+         }
+      
+  }
