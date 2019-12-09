@@ -4,7 +4,7 @@ body{
   background-size: cover;
   color: #FEFFFF;
 font-family: 'Raleway', sans-serif;
-height: 100%;
+
 
 }
 
@@ -14,7 +14,7 @@ header{font-family: 'Modak', cursive;
 
 .main{
     width: 85vw;
-    height: auto;
+    height: 80%;
     margin-top: 2vh;
     margin-left: 5vw;
     padding: 20px;
