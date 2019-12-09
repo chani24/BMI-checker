@@ -4,8 +4,6 @@ body{
   background-size: cover;
   color: #FEFFFF;
 font-family: 'Raleway', sans-serif;
-
-
 }
 
 header{font-family: 'Modak', cursive;
@@ -14,9 +12,10 @@ header{font-family: 'Modak', cursive;
 
 .main{
     width: 85vw;
-    height: 80%;
+    height: auto;
     margin-top: 2vh;
-    margin-left: 5vw;
+    margin-left: 0;
+    margin-right: 0;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -89,15 +88,22 @@ footer{
 
   @media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
 
+
+    body{
+      min-height: 100%;
+    }
     .main{display: block;
-    justify-content: center;}
+    
+    justify-content: center;
+  }
 
     .right-side{
       margin-top: 20px;
-      width: 75%;
+      width: 80%;
       height: 100%;
       padding: 20px;
       font-size: 4vw;
+      margin-left: 10%;
       }
 
     .left-side{
