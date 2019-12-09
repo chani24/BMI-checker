@@ -1,10 +1,11 @@
-html, body{
+body{
   background-image: url(https://www.xmple.com/wallpaper/cyan-azure-3d-cubes-1920x1080-c3-17252a-3d7383-76b6c9-l-268-a-225-f-11.svg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #FEFFFF;
 font-family: 'Raleway', sans-serif;
 height: 100%;
+
 }
 
 header{font-family: 'Modak', cursive;
@@ -13,7 +14,7 @@ header{font-family: 'Modak', cursive;
 
 .main{
     width: 85vw;
-    height: 100%;
+    height: auto;
     margin-top: 2vh;
     margin-left: 5vw;
     padding: 20px;
