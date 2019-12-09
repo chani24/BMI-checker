@@ -83,8 +83,11 @@ footer{
   
   }
 
-  @media only screen and (max-width: 600px), only screen and (max-device-width: 480px) {
-
+  @media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+    body{
+      height: 100vh;
+    }
+    }
     .main{display: block;
     justify-content: center;}
 
@@ -92,7 +95,7 @@ footer{
       margin-top: 20px;
       width: 70vw;
       padding: 20px;
-      font-size: 12px;
+      font-size: 25px;
       }
 
       input{width: 200%;
@@ -108,6 +111,10 @@ footer{
         .b-container{
           display: flex;
           justify-content: left;
+         }
+
+         footer{
+           position: fixed;
          }
       
   }
