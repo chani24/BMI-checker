@@ -86,16 +86,17 @@ footer{
 
   @media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
     body{
-      min-height: 120vh;
+      min-height: 130vh;
     }
     .main{display: block;
-    justify-content: center;}
+    justify-content: center;
+  margin-left: 0;}
 
     .right-side{
-      margin-top: 20px;
-      width: 70vw;
+      margin-top: 10px;
+      width: 100%;
       padding: 20px;
-      font-size: 4vw;
+      font-size: 30px;
       }
 
       input{width: 200%;
@@ -106,6 +107,8 @@ footer{
 
         button{
           margin-left: 0;
+          width: 200%;
+          height: 200%;
         }
 
         .b-container{
@@ -113,7 +116,7 @@ footer{
           justify-content: left;
          }
          footer{
-           margin-bottom: 0;
+          position: fixed;
          }
       
   }
