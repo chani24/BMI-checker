@@ -112,7 +112,7 @@ footer{
       
   }
 
-  @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  @media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
 
     .main{display: block;
     justify-content: center;}
@@ -120,13 +120,14 @@ footer{
     .right-side{
       margin-top: 20px;
       width: 70vw;
-      height: 40vw;
+      height: 50vw;
       padding: 20px;
       font-size: 12px;
       }
 
     .left-side{
       height: 40vw;
+      margin: 0;
     }
 
       input{width: 200%;
