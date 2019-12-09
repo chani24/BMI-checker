@@ -12,7 +12,7 @@ header{font-family: 'Modak', cursive;
 
 .main{
     width: 85vw;
-    height: 75vh;
+    height: auto;
     margin-top: 2vh;
     margin-left: 5vw;
     padding: 20px;
@@ -93,9 +93,9 @@ footer{
     .right-side{
       margin-top: 20px;
       width: 75%;
-      height: 50%;
+      height: auto;
       padding: 20px;
-      font-size: 12px;
+      font-size: 24px;
       }
 
     .left-side{
