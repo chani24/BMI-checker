@@ -87,14 +87,14 @@ footer{
 
   @media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
     body{
-      min-height: 600px;
+      min-height: 100vh;
     }
     .main{display: block;
     justify-content: center;}
 
     .right-side{
       margin-top: 20px;
-      width: 400px;
+      width: 75%;
       height: auto;
       padding: 20px;
       font-size: 12px;
